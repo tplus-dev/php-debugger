@@ -1,0 +1,10 @@
+RewriteEngine on
+
+# Add folders in this regular expression that should be accessible
+
+RewriteRule ^(Public|Uploads|Includes)\/ - [L,QSA]
+
+# Direct all other traffic the index.php file which will pass the route to the application
+
+RewriteBase /
+RewriteRule ^(.*?)$ index.php?Route=$1 [L,QSA]

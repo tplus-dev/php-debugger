@@ -1,0 +1,61 @@
+
+	@import 'Variables.less';
+
+    html {
+    	-webkit-font-smoothing: antialiased;
+    }
+
+	body {
+		margin: 0;
+		font-family: @Font;
+		color: #323232;
+		line-height: 26px;
+		font-size: 18px; 
+		font-weight: 300;
+	}
+
+	a {
+		&:link,&:visited {
+			color: @BaseColor;
+			text-decoration: none;
+			font-weight: @Bold;
+		}
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	h2 {
+		margin: 0;
+	}
+
+	h3 {
+		margin: 0;
+	}
+
+	.Content {
+		width: 1000px;
+		margin: auto;
+		position: relative;
+	}
+
+
+	#Background {
+		background: darken(@BaseColor,15%);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		.Line {
+			position: absolute;
+			top: -200px;
+			left: 60%;
+			background: #fff;
+			opacity: 0.1;
+			width: 200px;
+			height: 200vh;
+			transform: rotateZ(20deg);
+		}
+	}

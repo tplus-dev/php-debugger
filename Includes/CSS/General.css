@@ -1,0 +1,160 @@
+.MarginTop {
+  margin-top: 50px;
+}
+.MarginBottom {
+  margin-bottom: 50px;
+}
+.MarginLeft {
+  margin-left: 50px;
+}
+.MarginRight {
+  margin-right: 50px;
+}
+.MediumMarginTop {
+  margin-top: 50px;
+}
+.MediumMarginBottom {
+  margin-bottom: 50px;
+}
+.MediumMarginLeft {
+  margin-left: 50px;
+}
+.MediumMarginRight {
+  margin-right: 50px;
+}
+.SmallMarginTop {
+  margin-top: 30px;
+}
+.SmallMarginBottom {
+  margin-bottom: 30px;
+}
+.SmallMarginLeft {
+  margin-left: 30px;
+}
+.SmallMarginRight {
+  margin-right: 30px;
+}
+.PaddingTop {
+  padding-top: 50px;
+}
+.PaddingBottom {
+  padding-bottom: 50px;
+}
+.CenterText {
+  text-align: center;
+}
+.Content {
+  margin: auto;
+  width: 1200px;
+}
+.BorderBottom {
+  border-bottom: 4px solid #008046;
+}
+.BorderTop {
+  border-top: 4px solid #008046;
+}
+.BaseColor {
+  background: #008046;
+}
+.WhiteText {
+  color: #fff;
+}
+.WhiteText h1,
+.WhiteText h2,
+.WhiteText h3,
+.WhiteText h4 {
+  color: #fff;
+}
+.WhiteText a:link,
+.WhiteText a:visited,
+.WhiteText a:hover {
+  color: #fff;
+}
+.WhiteSVG svg {
+  fill: #fff !important;
+}
+.BaseColorSVG svg {
+  fill: #008046 !important;
+}
+.Hidden {
+  display: none;
+}
+.LightGray {
+  background: #efefef;
+}
+.FullWidth {
+  width: 100%;
+}
+.Flex {
+  display: flex;
+  flex-direction: row;
+}
+.Flex .FlexGrow {
+  flex-grow: 1;
+}
+.Flex .Right {
+  justify-content: flex-end;
+  text-align: right;
+}
+.Flex .Center {
+  justify-content: center;
+  text-align: center;
+}
+.Flex.CenteredVertically {
+  align-items: center;
+}
+.Flex .FlexEnd {
+  justify-content: flex-end;
+}
+.Buttons button {
+  margin-right: 20px;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  color: #323232;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 300;
+}
+a:link,
+a:visited {
+  color: #008046;
+  text-decoration: none;
+  font-weight: 700;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+.Content {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+#Background {
+  background: #00341c;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+#Background .Line {
+  position: absolute;
+  top: -200px;
+  left: 60%;
+  background: #fff;
+  opacity: 0.1;
+  width: 200px;
+  height: 200vh;
+  transform: rotateZ(20deg);
+}

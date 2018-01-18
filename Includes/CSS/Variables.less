@@ -1,0 +1,102 @@
+@Font: 'Roboto';
+
+@Bold: 700;
+@ExtraBold: 900;
+
+@BaseWidth: 1200px;
+@Spacing: 50px;
+@SpacingSmaller: 30px;
+
+@NavHeight: 112px;
+@NavHeightResponsive: 92px;
+
+@BaseColor: #008046;
+
+.MarginTop { margin-top: 50px; }
+.MarginBottom { margin-bottom: 50px; }
+.MarginLeft { margin-left: 50px; }
+.MarginRight { margin-right: 50px; }
+
+.MediumMarginTop { margin-top: 50px; }
+.MediumMarginBottom { margin-bottom: 50px; }
+.MediumMarginLeft { margin-left: 50px; }
+.MediumMarginRight { margin-right: 50px; }
+.SmallMarginTop { margin-top: 30px; }
+.SmallMarginBottom { margin-bottom: 30px; }
+.SmallMarginLeft { margin-left: 30px; }
+.SmallMarginRight { margin-right: 30px; }
+.PaddingTop { padding-top: 50px; }
+.PaddingBottom { padding-bottom: 50px; }
+.CenterText { text-align: center; }
+.Content {
+	margin: auto;
+	width: @BaseWidth;
+}
+.BorderBottom {
+	border-bottom: 4px solid @BaseColor;
+}
+.BorderTop {
+	border-top: 4px solid @BaseColor;
+}
+.BaseColor {
+	background: @BaseColor;
+}
+.WhiteText {
+	color: #fff;
+	h1,h2,h3,h4 {
+		color: #fff;
+	}
+	a:link, a:visited, a:hover {
+		color: #fff;
+	}
+}
+.WhiteSVG {
+	svg {
+		fill: #fff !important;
+	}
+}
+.BaseColorSVG {
+	svg {
+		fill: @BaseColor !important;
+	}
+}
+.Hidden {
+	display: none;
+}
+.LightGray {
+	background: #efefef;
+}
+
+.FullWidth {
+	width: 100%;
+}
+.Flex {
+	// width: 100%;
+	display: flex;
+	flex-direction: row;
+	.FlexGrow {
+		flex-grow: 1;
+	}
+	.Right {
+		justify-content: flex-end;
+		text-align: right;
+	}
+	.Center {
+		justify-content: center;
+		text-align: center;
+	}
+	&.CenteredVertically {
+		align-items: center;
+	}
+	.FlexEnd {
+		justify-content: flex-end;
+	}
+}
+.Buttons {
+	// .MarginTop;
+	// border-top: 2px solid #afafaf;
+	// padding-top: 20px;
+	button {
+		margin-right: 20px;
+	}
+}
